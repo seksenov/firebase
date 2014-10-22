@@ -1,4 +1,4 @@
-var myDataRef = new Firebase('https://https://test-chat-ks.firebaseio.com/');
+var myDataRef = new Firebase('https://test-chat-ks.firebaseio.com/');
       $('#messageInput').keypress(function (e) {
         if (e.keyCode == 13) {
           var name = $('#nameInput').val();
